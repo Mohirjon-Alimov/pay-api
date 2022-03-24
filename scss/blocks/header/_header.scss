@@ -1,0 +1,43 @@
+@import "./nav";
+@import "./hero";
+
+.container-header {
+  max-width: 1440px;
+  height: 812px;
+  padding-top: 56px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 165px;
+  padding-right: 165px;
+  position: relative;
+  z-index: 1;
+}
+.container-header::after {
+  content: " ";
+  position: absolute;
+  width: 780px;
+  height: 780px;
+  background-color: #36536B;
+  border-radius: 100%;
+  opacity: 0.15;
+  top: -172px;
+  right: -140px;
+  z-index: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .container-header {
+    max-width: 768px;
+    height: auto;
+    padding-left: auto;
+    padding-right: auto;
+  }
+  .container-header::after {
+    display: none;
+  }
+  .container-header {
+    background-image: url(../../../img/tablet-bgc-img.png);
+    background-repeat: no-repeat;
+    background-position:center top ;
+  }
+}

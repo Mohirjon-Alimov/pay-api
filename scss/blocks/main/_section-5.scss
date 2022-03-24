@@ -1,0 +1,38 @@
+.container__section-5 {
+  width: 1440px;
+  padding-left: 165px;
+  padding-right: 165px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.section-5__heading {
+  margin: 0;
+  font-family: 'DM Serif Display';
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.369231px;
+  color: #36536B;
+}
+.section-5__button {
+  width: 173px;
+  height: 48px;
+  position: absolute;
+  right: -1px;
+  color: #FBFCFE;
+  background-color: #BA4270;
+  border-radius: 24px;
+  border: 0;
+  cursor: pointer;
+}
+.section-5__button:hover {
+  background-color: #DA6D97;
+}
+.section-5__button:active {
+  background-color: #DA6D97;
+}
