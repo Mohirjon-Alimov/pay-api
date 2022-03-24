@@ -89,3 +89,29 @@
   display: flex;
   align-items: center;
 }
+
+
+@media only screen and (max-width: 768px) {
+  .container-main {
+    max-width: 768px;
+    height: 615px;
+    padding: 0;
+    background-image: url(../../../img/section1-bg-img.png);
+    background-repeat: no-repeat;
+    background-position:center top ;
+    padding-top: 130px;
+  }
+  .container-main__section-1 {
+    flex-direction: column-reverse;
+    justify-content: space-between;
+  }
+  .section-1__section-1-content {
+    text-align: center;
+    padding: 0;
+    padding-bottom: 88px;
+  }
+  .container-main::before {
+    display: none;
+
+  }
+}
