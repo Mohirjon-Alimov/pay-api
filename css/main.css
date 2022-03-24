@@ -752,7 +752,7 @@ label {
     max-width: 768px;
     height: 615px;
     padding: 0;
-    background-image: url(../../../img/section1-bg-img.png);
+    background-image: url(../img/section1-bg-img.png);
     background-repeat: no-repeat;
     background-position: center top;
     padding-top: 130px;
@@ -918,6 +918,36 @@ label {
   z-index: 1;
 }
 
+@media only screen and (max-width: 768px) {
+  .section-3__section-3-inner {
+    max-width: 768px;
+    height: auto;
+    padding: 0;
+    padding-top: 450px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .section-3-inner__section-3-inner-content {
+    text-align: center;
+  }
+  .section-3-inner__section-3-inner-pic {
+    left: 48px;
+  }
+  .phone-img1 {
+    bottom: 115px;
+  }
+  .phone-img2 {
+    bottom: 115px;
+  }
+  .section-3-inner__section-3-inner-pic::after {
+    display: none;
+  }
+}
+
 .section-4__section-4-inner {
   width: 1440px;
   padding-left: 165px;
@@ -971,6 +1001,30 @@ label {
   color: #6C8294;
 }
 
+@media only screen and (max-width: 768px) {
+  .section-4__section-4-inner {
+    max-width: 768px;
+    margin-top: 100px;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .section-4-inner__section-4-inner-item {
+    width: 223px;
+    height: 343px;
+  }
+  .section-4-inner__section-4-inner-item ~ .section-4-inner__section-4-inner-item {
+    margin-left: 10px;
+  }
+}
+
 .container__section-5 {
   width: 1440px;
   padding-left: 165px;
@@ -1018,6 +1072,20 @@ label {
 
 .section-5__button:active {
   background-color: #DA6D97;
+}
+
+@media only screen and (max-width: 768px) {
+  .container__section-5 {
+    max-width: 768px;
+    position: relative;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .section-5__heading {
+    margin-bottom: 40px;
+  }
 }
 
 footer {
@@ -1096,6 +1164,15 @@ footer {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+@media only screen and (max-width: 768px) {
+  .container-footer {
+    max-width: 768px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+  }
 }
 
 body {
