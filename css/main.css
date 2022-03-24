@@ -616,14 +616,14 @@ label {
   .container-header {
     max-width: 768px;
     height: auto;
-    padding-left: auto;
-    padding-right: auto;
+    padding-left: 40px;
+    padding-right: 40px;
   }
   .container-header::after {
     display: none;
   }
   .container-header {
-    background-image: url(../../../img/tablet-bgc-img.png);
+    background-image: url(../img/tablet-bgc-img.png);
     background-repeat: no-repeat;
     background-position: center top;
   }
