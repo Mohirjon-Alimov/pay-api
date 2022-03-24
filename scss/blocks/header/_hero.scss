@@ -105,3 +105,60 @@ label {
     left: -40px;
   }
 }
+
+@media only screen and (max-width: 375px) {
+  .container-header__hero {
+    flex-direction: column-reverse;
+    width: auto;height: auto;
+  }
+  .container-header {
+    padding-bottom: 100px;
+  }
+  .hero__content-1 {
+    max-width: 375px;
+  }
+  .hero__content-2 {
+    margin: 0;
+  }
+  .content-1__heading {
+    width: 322px;
+    height: 109px;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+  }
+  .hero__content-1 {
+    display: flex;
+    margin-top: 100px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .content-1__button {
+    right: -1px;
+  }
+  .content-2__content-2-img {
+    position: relative;
+    left: -40px;
+  }
+  .form-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  input {
+    width: 327px;
+  }
+  .content-1__button {
+    width: 327px;
+    position: sticky;
+    display: block;
+  }
+  label {
+    position: sticky;
+  }
+  .label-span {
+    bottom: -90px;
+    left: 56px;
+  }
+}

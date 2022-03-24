@@ -7,7 +7,6 @@
 }
 .header-navbar__navbar {
   display: flex;
-
 }
 .navbar__nav-list {
   display: flex;
@@ -46,6 +45,13 @@
   color:  #FBFCFE;
   cursor: pointer;
 }
+.header-navbar__header-navbar-hamburger {
+  width: 28px;
+  height: 17px;
+  background-color: transparent;
+  border: none;
+  display: none;
+}
 .header-navbar__header-navbar-button:hover {
   background-color: #DA6D97;
 }
@@ -57,5 +63,20 @@
 @media only screen and (max-width: 768px) {
   .container-header__header-navba {
     max-width: 768px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .container-header__header-navba {
+    max-width: 375px;
+  }
+  .navbar__nav-list {
+    display: none;
+  }
+  .header-navbar__header-navbar-button {
+    display: none;
+  }
+  .header-navbar__header-navbar-hamburger {
+    display: inline-block;
   }
 }
